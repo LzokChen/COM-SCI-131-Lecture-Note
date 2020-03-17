@@ -66,8 +66,8 @@
       * boolean, char, short, int, long, float, double...
       * string is **not** a primitive type
       * **float**
-        * <img src="./pic/week5-01.jpg" width = "550" height = "240" align=center /> 
-        * <img src="./pic/week5-02.jpg" width = "450" height = "520" align=center /> 
+        * <img src="./pic/week5-01.JPG" width = "550" height = "240" align=center /> 
+        * <img src="./pic/week5-02.JPG" width = "450" height = "520" align=center /> 
         * exponent overflow阶码溢出-> $\infty$
         * 0.0/0.0 -> ```NaN```
         * $\infty$ - $\infty$ = ```NaN```
@@ -184,7 +184,7 @@
         int * int -> bool
         unsigned * int -> unsigned 
     ```
-   * <img src="./pic/week5-03.jpg" width = "350" height = "200" align=center /> 
+   * <img src="./pic/week5-03.JPG" width = "350" height = "200" align=center /> 
   * 特定多态（ad hoc polymorphism）是程序设计语言的一种多态，多态函数有多个不同的实现，依赖于其实参而调用相应版本的函数。因此，特设多态仅支持有限数量的不同类型。函数重载乃至运算符重载也是特设多态的一种。
 
   #### User-defined type in OOP

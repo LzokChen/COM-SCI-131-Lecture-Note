@@ -24,7 +24,7 @@
 ```
 
 * **4 port debugger ```?- trace```**
-    * <img src="./pic/week7-4port_debugger.jpg" width = "400" height = "220" align=center />
+    * <img src="./pic/week7-4port_debugger.JPG" width = "400" height = "220" align=center />
 
 * A few efficiency notes.
     * stack(to-do-list)
@@ -32,12 +32,12 @@
     * go on success, shrinks on failure.
     * term are steered on the stack
     * variables are trailed on the stack
-    * <img src="./pic/week7-efficiency.jpg" width = "550" height = "320" align=center />
+    * <img src="./pic/week7-efficiency.JPG" width = "550" height = "320" align=center />
 * **peano arithmetic**
-    * <img src="./pic/week7-peano_arithmetic.jpg" width = "550" height = "320" align=center />
+    * <img src="./pic/week7-peano_arithmetic.JPG" width = "550" height = "320" align=center />
 
 * **Infinite loop**
-    * <img src="./pic/week7-prolog_infinite_loop.jpg" width = "350" height = "170" align=center />
+    * <img src="./pic/week7-prolog_infinite_loop.JPG" width = "350" height = "170" align=center />
 
 
 * **Unification**
@@ -55,5 +55,5 @@
 
         % Note: 'not'=='\+' in prolog, but 'not' is a bad terminology.
     ```
-    * <img src="./pic/week7-member_function.jpg" width = "450" height = "200" align=center />
+    * <img src="./pic/week7-member_function.JPG" width = "450" height = "200" align=center />
 

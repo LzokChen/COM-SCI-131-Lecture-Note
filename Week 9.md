@@ -40,7 +40,7 @@
     foo(int b)
     { throw IOError(47); /*trigger error manually*/}
     ```
-    * <img src="./pic/week9-exception.jpg" width = "120" height = "150" align=center />
+    * <img src="./pic/week9-exception.JPG" width = "120" height = "150" align=center />
 
 * **alternative**
     * Unix/POsIX system calls
@@ -135,21 +135,21 @@
     1.  **Is `f`'s frame's size fixed?**
         * transitionally in C/C++, the answer is yes
         * dynamically sized array
-         * <img src="./pic/week9-02.jpg" width = "400" height = "250" align=center />
+         * <img src="./pic/week9-02.JPG" width = "400" height = "250" align=center />
     2. **statically nested function?**
-        * <img src="./pic/week9-03.jpg" width = "300" height = "150" align=center />
+        * <img src="./pic/week9-03.JPG" width = "300" height = "150" align=center />
         *
-        * <img src="./pic/week9-04.jpg" width = "400" height = "250" align=center />
+        * <img src="./pic/week9-04.JPG" width = "400" height = "250" align=center />
         *
-        * <img src="./pic/week9-05.jpg" width = "400" height = "250" align=center />
+        * <img src="./pic/week9-05.JPG" width = "400" height = "250" align=center />
         *
-        * <img src="./pic/week9-06.jpg" width = "400" height = "250" align=center />
+        * <img src="./pic/week9-06.JPG" width = "400" height = "250" align=center />
 
 -------
 ### Mar4 
 
 * **Heap Management**
-    * <img src="./pic/week9-Heap management.jpg" width = "400" height = "120" align=center />
+    * <img src="./pic/week9-Heap management.JPG" width = "400" height = "120" align=center />
     * instead of using a extra list to store the free memory location(as below), it store the free memory area detail inside the free area(as above).
     * it store the size of free memory, the location of next free memory area
     * `void *malloc(size.t n)`
@@ -218,7 +218,7 @@
                     * overhead(CPU+Memory)
 
 * **Classic G.C. algorithm**
-    * <img src="./pic/week9-classic_GC.jpg" width = "400" height = "100" align=center />
+    * <img src="./pic/week9-classic_GC.JPG" width = "400" height = "100" align=center />
     * **mark and sweep**
         * Mark parse
             1. clear all mark bits
@@ -246,8 +246,8 @@
         * object are immovable (C use pointer to reference the object, and moving the pointer is ricky)
 
 * **Generation-based allocator**
-    * <img src="./pic/week9-gen_based_and_copying.jpg" width = "400" height = "250" align=center />
-    * <img src="./pic/week9-gen-based-ex.jpg" width = "250" height = "150" align=center />
+    * <img src="./pic/week9-gen_based_and_copying.JPG" width = "400" height = "250" align=center />
+    * <img src="./pic/week9-gen-based-ex.JPG" width = "250" height = "150" align=center />
 
 
 * **Copying garbage collector**

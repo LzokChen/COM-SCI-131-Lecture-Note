@@ -19,7 +19,7 @@
     * <cand> ->   (cand <cand clause>+)
                 | (cand <cand clause>* (else<sequence>))
     * redo as a diagrams
-       <img src="./pic/week2-01.jpg" width = "450" height = "280" align=center /> 
+       <img src="./pic/week2-01.JPG" width = "450" height = "280" align=center /> 
       * reduce duplication
 -------------------
 
@@ -70,13 +70,13 @@
   6. Ambiguity (not always obvious)
      * In programming language the Ambiguity usually come from **precedence优先级, associativity结合性, and dangling problem**
      * Ex: 
-       * <img src="./pic/week2-02.jpg" width = "450" height = "250" align=center /> 
+       * <img src="./pic/week2-02.JPG" width = "450" height = "250" align=center /> 
        * E -> expression, T -> term, F-> factor  
        * How to fix: 
          1. **operator precedence** (by complicating grammar).
-            <img src="./pic/week2-03.jpg" width = "450" height = "250" align=center /> 
+            <img src="./pic/week2-03.JPG" width = "450" height = "250" align=center /> 
          2. **Associativity**
-             <img src="./pic/week2-04.jpg" width = "450" height = "250" align=center />
+             <img src="./pic/week2-04.JPG" width = "450" height = "250" align=center />
 
     
      * More Ex: **C grammar**
@@ -168,13 +168,13 @@
    * Partial function doesn't care about the domain.
    * ```'+' (f(y),g(z))``` ordering is controlled by ```calls+args``` first, then ```fn```.
    * Function form
-       <img src="./pic/week2-06.JPg" width = "350" height = "200" align=center />
+       <img src="./pic/week2-06.JPG" width = "350" height = "200" align=center />
    * **No side effects**
      * No assignment
      * No copying
      * No I/O
    * Referential transparency 引用透明性
-        <img src="./pic/week2-07.JpG" width = "350" height = "200" align=center />
+        <img src="./pic/week2-07.JPG" width = "350" height = "200" align=center />
 
 
 #### ML & Ocaml

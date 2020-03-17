@@ -66,14 +66,14 @@
     
     * **pairs**
         * ```(E1 . E2) ```
-            * <img src="./pic/week8-pairs.jpg" width = "100" height = "50" align=center />
+            * <img src="./pic/week8-pairs.JPG" width = "100" height = "50" align=center />
     
     * **empty list** ```()```
 
     * **lists**
         * ```'(1 i s t s)```
         * improper list ```'(1 i s t . s)```
-        * <img src="./pic/week8-list.jpg" width = "250" height = "80" align=center />
+        * <img src="./pic/week8-list.JPG" width = "250" height = "80" align=center />
     
     * **strings** ```"abc\n"```
 
@@ -93,7 +93,7 @@
 
     * **quasiquote** 
       * ``` `(x,y)``` == ```(quasiquote(x (unquote y)))```
-      * <img src="./pic/week8-quote.jpg" width = "250" height = "100" align=center />
+      * <img src="./pic/week8-quote.JPG" width = "250" height = "100" align=center />
   
       ```scheme
          > (quasiquote (1 2 (unquote (+ 1 2)) (unquote (- 5 1))))
@@ -211,7 +211,7 @@
         ; args = ("joe" 19)
 
     ```
-    * <img src="./pic/week8-printf.jpg" width = "350" height = "100" align=center />
+    * <img src="./pic/week8-printf.JPG" width = "350" height = "100" align=center />
 
 * **macro**
     * **```and```**
@@ -297,7 +297,7 @@
                         (cons (car ls2) a))) 
         ))
     ```
-    * <img src="./pic/week8-proper_tail_call.jpg" width = "380" height = "210" align=center />
+    * <img src="./pic/week8-proper_tail_call.JPG" width = "380" height = "210" align=center />
 
 * **Continuations**
     * "The essence of scheme"
@@ -305,8 +305,8 @@
     * inside the interpreter, you have:
         * **ip** --instruction pointer -> pointer on machine code
         * **ep** --environment pointer -> pointer on local frame for current function
-        * <img src="./pic/week8-cont_stack.jpg" width = "100" height = "120" align=center />
-        * <img src="./pic/week8-cont.jpg" width = "400" height = "250" align=center />
+        * <img src="./pic/week8-cont_stack.JPG" width = "100" height = "120" align=center />
+        * <img src="./pic/week8-cont.JPG" width = "400" height = "250" align=center />
 
     * **how to create continuation**
         * **```(call-with-current-continuation p)```**
@@ -346,7 +346,7 @@
                 //causes longjmp to return value(value != 0)
                 ```
             * how to use it 
-                * <img src="./pic/week8-jmp_buf.jpg" width = "400" height = "200" align=center />
+                * <img src="./pic/week8-jmp_buf.JPG" width = "400" height = "200" align=center />
             
 
 

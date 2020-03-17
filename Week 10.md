@@ -130,7 +130,7 @@ call f (a1, a2, a3... an)   #parameter
     *    <img src="./pic/week10-06.jpeg" width = "400" height = "150" align=center />
 
 *   Cost of Prolog Unification
-*    <img src="./pic/week10-07.jpg" width = "400" height = "450" align=center />
+*    <img src="./pic/week10-07.JPG" width = "400" height = "450" align=center />
     
 
 -----------------------
@@ -156,7 +156,7 @@ call f (a1, a2, a3... an)   #parameter
     *   BNF + attribute for each node in parse tree + attribute computation rules (how to compute attribute in particular parse tree)
     *   Ex: 
     *   
-        *   <img src="./pic/week10-08.jpg" width = "120" height = "100" align=center /> 
+        *   <img src="./pic/week10-08.JPG" width = "120" height = "100" align=center /> 
         *    Type attribute: `int` & `float`
         *   
             ``` C
@@ -191,7 +191,7 @@ call f (a1, a2, a3... an)   #parameter
             *   p = "There are no in-person classes at UCLA today"
             *   q = "   The 405 is busy"
             *   **logical connectives**
-                <img src="./pic/week10-09.jpg" width = "700" height = "200" align=center /> 
+                <img src="./pic/week10-09.JPG" width = "700" height = "200" align=center /> 
                 | p | q | p&q | p or q | p->q (p impies q) | p<->q (p implies q and q implies p) |
                 |---|---|-----|--------|-------------------|-------------------------------------|
                 |  |  |  | p | q | p <= q | p==q |
@@ -200,16 +200,16 @@ call f (a1, a2, a3... an)   #parameter
                 | 1 | 0 | 0 | 1 | 0 | 0 |
                 | 1 | 1 | 1 | 1 | 1 | 1 |
         *   Ex2:
-            *   <img src="./pic/week10-10.jpg" width = "600" height = "250" align=center /> 
+            *   <img src="./pic/week10-10.JPG" width = "600" height = "250" align=center /> 
         *   Always true(tautology)
             *   p -> p
             *   ((p->q)& (q->r)) -> p->r
             *   You can always prove or disprove any propositional logic(whether it is a tautology) 
-            *   <img src="./pic/week10-11.jpg" width = "350" height = "250" align=center /> 
+            *   <img src="./pic/week10-11.JPG" width = "350" height = "250" align=center /> 
     *   **Clausal form(normal form for predicate calculus)**
         *   Clausal form is a special form in predicate calculus
         *   Details --> AI class
-        *    <img src="./pic/week10-12.jpg" width = "700" height = "150" align=center /> 
+        *    <img src="./pic/week10-12.JPG" width = "700" height = "150" align=center /> 
     *   **Horn clauses: a sub set of Clausal form (when n <= 1)
         *   n = 1, m = 0    fact
         *   n = 1, m > 0    rule
@@ -221,12 +221,12 @@ call f (a1, a2, a3... an)   #parameter
 * **Operational Semantics of Java**
   *   Write a Java interpreter in Scheme
   *   Know a Java program's behavior by watching the Scheme interpreter run with it
-  *    <img src="./pic/week10-13.jpg" width = "350" height = "200" align=center /> 
+  *    <img src="./pic/week10-13.JPG" width = "350" height = "200" align=center /> 
 
 *   Operational Semantics of basic ML
     *   write an ML interpreter in Prolog
-    *   <img src="./pic/week10-14.jpg" width = "700" height = "250" align=center /> 
-    *   <img src="./pic/week10-15.jpg" width = "700" height = "250" align=center /> 
+    *   <img src="./pic/week10-14.JPG" width = "700" height = "250" align=center /> 
+    *   <img src="./pic/week10-15.JPG" width = "700" height = "250" align=center /> 
 *   Denotational Semantics 指称语义
 *   Axiomatic Semantic 公理语义
     *   logical basis for imperative languages

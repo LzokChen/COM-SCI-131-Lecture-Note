@@ -190,7 +190,7 @@
       t.start()             //OS can choose to run or not | Runnable
                             //invokes t.run()      
       ```
-      <img src="./pic/week4-04.jpg" width = "400" height = "160" align=center />
+      <img src="./pic/week4-04.JPG" width = "400" height = "160" align=center />
     * two way to define a thread
       1. **Subclassing**
         ```Java
@@ -285,7 +285,7 @@
           //v1 v2 are objects
           ``` 
       2. **CountdownLatch()**
-         <img src="./pic/week4-05.jpg" width = "500" height = "350" align=center /> 
+         <img src="./pic/week4-05.JPG" width = "500" height = "350" align=center /> 
   --
   * **Non synchronization approach**
     1. **```Volatile```keyword**
@@ -339,14 +339,14 @@
   ----------
   * Each thread has semantics that are sequential, and optimization are allowed if that thread cannot observe them.
     * ex: in the case of ```v++; w=0; v--; w=1``` cannot be optimized 
-   <img src="./pic/week4-06.jpg" width = "480" height = "300" align=center /> 
+   <img src="./pic/week4-06.JPG" width = "480" height = "300" align=center /> 
   * **Can Reorder Table**
-    * <img src="./pic/week4-07.jpg" width = "380" height = "250" align=center />   
+    * <img src="./pic/week4-07.JPG" width = "380" height = "250" align=center />   
 
 #### CPU Caches 
 * multiple levels of caches
   * each CPU/core can have their own cached values
   * Even if everything happens in the expected order, result can be incorrect.
-  * <img src="./pic/week4-09 cpu caches.jpg" width = "280" height = "200" align=center />     
+  * <img src="./pic/week4-09 cpu caches.JPG" width = "280" height = "200" align=center />     
   * which will cause race condition in jvm.
     * a thread is operating on a old value, instead of a new value return from another thread
