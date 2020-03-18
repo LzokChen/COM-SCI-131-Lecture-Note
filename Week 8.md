@@ -306,7 +306,7 @@
         * **ip** --instruction pointer -> pointer on machine code
         * **ep** --environment pointer -> pointer on local frame for current function
         * <img src="./pic/week8-cont_stack.JPG" width = "100" height = "120" align=center />
-        * <img src="./pic/week8-cont.JPG" width = "400" height = "250" align=center />
+        * <img src="./pic/week8-cont.JPG" width = "700" height = "450" align=center />
 
     * **how to create continuation**
         * **```(call-with-current-continuation p)```**
@@ -318,16 +318,16 @@
         * you call it with a single argument.
         * ```(k v)```
             * set ```ip``` to ```k```'s ```ip```, and ```ep``` to ```k```'s ```ep```
-            * arranges for ```call/cc`` to return v
+            * arranges for `call/cc` to return v
 
         ```scheme
         (define (prod ls)
             (call/cc (lambda (break) 
-            (let pr ((ls ls))
-                    (cond   ((null? ls) 1)
-                            ((zero? (car ls) (break 0)))
-                            (else (* (pr(cdr ls))  (car ls)))
-                    ))
+                (let pr ((ls ls))
+                        (cond   ((null? ls) 1)
+                                ((zero? (car ls) (break 0)))
+                                (else (* (pr(cdr ls))  (car ls)))
+                        ))
             )))
         ```
         * there is similar operation in C
@@ -387,7 +387,7 @@
 
     ```scheme
     (define (prod ls break)
-        (let pr ((ls ls) (k break)
+        (let pr (((ls ls) (k break))
             (cond   ((null? ls) (k 1))
                     ((zero? (car ls)) (break 0))
                     (else (pr (car ls) (lambda (v) (* v(car ls)))))
